@@ -1,0 +1,15 @@
+# Core inference and training
+torch==1.13.0
+torchvision==0.14.0
+numpy==1.23.4
+opencv-python==4.6.0.66
+imutils==0.5.4
+timm==0.6.12
+einops==0.6.0
+
+# ONNX benchmarking/export
+onnxruntime       # use onnxruntime-gpu instead if you want CUDA
+onnx
+
+# Optional: TensorFlow export/inference helpers under tf/
+# tensorflow
